@@ -1,6 +1,8 @@
 README.md
 #Semaine du 29 avril au 5 mai
+
 ##Description du travail effectué 
+
 Fonctionnalité n°1 : Déplacer un vaisseau dans l'espace de jeu (fini)
 
 Story n°1 : Créer un espace de jeu : 
