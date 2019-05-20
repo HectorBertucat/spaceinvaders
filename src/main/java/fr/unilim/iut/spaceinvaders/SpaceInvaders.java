@@ -58,16 +58,16 @@ public class SpaceInvaders {
 
 		public void positionnerUnNouveauVaisseau(int x, int y) {
 
-			if ((x<0) || (x >= longueur))
-				throw new HorsEspaceJeuException("Vous êtes en dehors de l'espace jeu");
-
-			if ((y<0) || (y >= hauteur))
-				throw new HorsEspaceJeuException("Vous êtes en dehors de l'espace jeu");
-
-			vaisseau = new Vaisseau(x, y);
-
+			if (estDansEspaceJeu(x, y)) {
+				vaisseau = new Vaisseau(x, y);
+			} else {
+				throw new HorsEspaceJeuException("La position du vaisseau est en dehors de l'espace jeu.");
+			}
 
 		}
 
+	private boolean estDansEspaceJeu(int x, int y) {
+		return ((x >= 0) && (x < longueur)) && ((y >= 0) && (y < hauteur));
+	}
 
-   }
+}
