@@ -22,4 +22,12 @@ public class Vaisseau {
 	public int abscisse() {
 		return this.x;
 	}
+
+	public int ordonnee() {
+		return this.y;
+	}
+
+	public void seDeplacerVersLaGauche() {
+		this.x = this.x - 1;
+	}
 }

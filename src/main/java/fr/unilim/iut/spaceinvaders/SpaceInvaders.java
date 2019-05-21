@@ -18,12 +18,6 @@ public class SpaceInvaders {
  		   this.hauteur = hauteur;
  	   }
 
-	    
-    	@Override
-    	public String toString() {
-			return recupererEspaceJeuDansChaineASCII();
-		}
-
 		public String recupererEspaceJeuDansChaineASCII() {
 			StringBuilder espaceDeJeu = new StringBuilder();
 			for (int y = 0; y < hauteur; y++) {
@@ -71,7 +65,10 @@ public class SpaceInvaders {
 	}
 
 	public void deplacerVaisseauVersLaDroite() {
-        if (vaisseau.abscisse()< (longueur-1)) vaisseau.seDeplacerVersLaDroite();
+        if (vaisseau.abscisse() < (longueur-1)) vaisseau.seDeplacerVersLaDroite();
     }
 
+    public void deplacerVaisseauVersLaGauche() {
+        if (vaisseau.abscisse() > 0) vaisseau.seDeplacerVersLaGauche();
+    }
 }
