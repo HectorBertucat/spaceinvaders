@@ -56,7 +56,7 @@ package fr.unilim.iut.spaceinvaders;
 				fail("Position trop à droite : devrait déclencher une exception HorsEspaceJeuException");
 			} catch (final HorsEspaceJeuException e) {
 			}
-//
+
 
 			try {
 				spaceinvaders.positionnerUnNouveauVaisseau(1,1,-1,9);
