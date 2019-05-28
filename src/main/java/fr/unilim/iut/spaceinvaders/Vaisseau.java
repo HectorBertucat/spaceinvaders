@@ -1,12 +1,10 @@
 package fr.unilim.iut.spaceinvaders;
 
-import fr.unilim.iut.spaceinvaders.utils.Position;
-import fr.unilim.iut.spaceinvaders.utils.Dimension;
-
 public class Vaisseau {
 
 	private Position origine;
 	private Dimension dimension;
+	private int vitesse;
 
 	public Vaisseau(int longueur, int hauteur) {
 		this(longueur, hauteur, 0, 0);
@@ -33,7 +31,7 @@ public class Vaisseau {
 		return (abscisseLaPlusAGauche() <= x) && (x <= abscisseLaPlusADroite());
 	}
 
-	private int ordonneeLaPlusBasse() {
+	public int ordonneeLaPlusBasse() {
 		return this.origine.ordonnee() - this.dimension.hauteur() + 1;
 	}
 
