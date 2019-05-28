@@ -65,6 +65,7 @@ public class Controleur implements KeyListener {
 		}
 	}
 
+
 	public void keyReleased(KeyEvent e) {
 		switch (e.getKeyCode()) {
 			case KeyEvent.VK_LEFT:
