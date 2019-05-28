@@ -2,6 +2,7 @@ package fr.unilim.iut.spaceinvaders;
 
 import fr.unilim.iut.spaceinvaders.moteurjeu.DessinJeu;
 import fr.unilim.iut.spaceinvaders.moteurjeu.Jeu;
+import fr.unilim.iut.spaceinvaders.Dimension;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
