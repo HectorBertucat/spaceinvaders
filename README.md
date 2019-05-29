@@ -15,11 +15,11 @@ Un nouveau vaisseau est créé
 
 # Diagramme de classes
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/ClassDiagramm1.png)
+![alt text](images/Class_Diagramms/ClassDiagramm1.png)
 
 # Nuage de mots 
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/CloudWord1.png)
+![alt text](images/Word_Clouds/CloudWord1.png)
 
 ---
 
@@ -35,11 +35,11 @@ Vérification de la couverture du code à l'aide de IntelliJ.
 
 # Diagramme de classes
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/ClassDiagramm2.png)
+![alt text](images/Class_Diagramms/ClassDiagramm2.png)
 
 # Nuage de mots 
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/CloudWord2.png)
+![alt text](images/Word_Clouds/CloudWord2.png)
 
 ---
 
@@ -53,8 +53,32 @@ Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée
 
 # Diagramme de classes
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/ClassDiagramm3.png)
+![alt text](images/Class_Diagramms/ClassDiagramm3.png)
 
 # Nuage de mots 
 
-![alt text](https://github.com/HectorBertucat/spaceinvaders/blob/master/CloudWord3.png)
+![alt text](images/Word_Clouds/CloudWord3.png)
+
+---
+
+# Semaine du 27 mai au 2 juin
+
+Fonctionnalité n°3 : Choisir la vitesse du vaisseau
+
+Implémentation de l'interface graphique
+
+Fonctionnalité n°4 : Tirer un missile depuis le vaisseau
+
+# Description du travail effectué 
+
+Fonctionnalité n°2 : Dimensionner le vaiseau 
+
+Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée
+
+# Diagramme de classes
+
+![alt text](images/Class_Diagramms/ClassDiagramm4.png)
+
+# Nuage de mots 
+
+![alt text](images/Word_Clouds/CloudWord4.png)
