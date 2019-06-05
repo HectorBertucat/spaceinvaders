@@ -63,17 +63,13 @@ Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée
 
 # Semaine du 27 mai au 2 juin
 
+# Description du travail effectué 
+
 Fonctionnalité n°3 : Choisir la vitesse du vaisseau
 
 Implémentation de l'interface graphique
 
 Fonctionnalité n°4 : Tirer un missile depuis le vaisseau
-
-# Description du travail effectué 
-
-Fonctionnalité n°2 : Dimensionner le vaiseau 
-
-Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée
 
 # Diagramme de classes
 
@@ -82,3 +78,19 @@ Etape n°1 : Positionner un nouveau vaisseau avec une dimension donnée
 # Nuage de mots 
 
 ![alt text](images/Word_Clouds/CloudWord4.png)
+
+# Semaine du 3 mai au 9 juin
+
+# Description du travail effectué 
+
+Fonctionnalité n°4 : Tirer un missile depuis le vaisseau
+
+Ajout de la disparition du missile en faut de l'espace de jeu.
+
+# Diagramme de classes
+
+![alt text](images/Class_Diagramms/ClassDiagramm5.png)
+
+# Nuage de mots 
+
+![alt text](images/Word_Clouds/CloudWord5.png)
